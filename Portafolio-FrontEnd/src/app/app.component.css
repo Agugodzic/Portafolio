@@ -1,0 +1,26 @@
+.section{
+  padding: 10px 30px 10px 30px;
+}
+.marcador{
+  font-size: 30px;
+}
+#nav{
+  width:100vw;
+  position:absolute;
+  text-align:center;
+  padding-top:15px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.nav-buttom{
+  color:rgba(255, 255, 255, 0.597);
+  display:inline;
+  margin-left:10px;
+  margin-right:5px;
+  padding:10px;
+}
+
+.nav-buttom:hover{
+  background-color:rgba(196, 196, 8, 0.855);
+  border-radius:5px;
+  color:rgba(54, 54, 54, 0.854);
+}
