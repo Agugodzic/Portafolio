@@ -28,13 +28,13 @@ a{
   margin-right:5px;
   padding:7px;
   transition:0.1s;
-  font-size:15px;
+  font-size:14px;
 }
 
 .nav-buttom:hover{
-  background-color:rgba(255, 238, 0, 0.639);
+  background-color:rgba(53, 56, 82, 0.576);
   border-radius:5px;
-  color:rgba(34, 34, 34, 0.898);
+  color:rgba(255, 255, 255, 0.739);
   cursor:pointer;
 }
 
