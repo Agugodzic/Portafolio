@@ -21,7 +21,7 @@ body::-webkit-scrollbar-track{
 
 body::-webkit-scrollbar-thumb{
   background-color: #ffffff4d;
-  border-radius: 8px;
+  border-radius: 7px;
   position:absolute;
 
 }
@@ -29,3 +29,10 @@ body::-webkit-scrollbar-thumb:hover{
   background-color: #ffffff7a;
 }
 
+.section{
+  background-color:rgb(39, 39, 39);
+  height: 100vh;
+  z-index:0;
+  display:flex;
+  justify-content: center;
+}
