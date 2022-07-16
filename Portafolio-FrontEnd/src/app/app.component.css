@@ -1,0 +1,62 @@
+.section{
+  margin:0;
+  z-index:0;
+}
+
+.marcador{
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#nav{
+  width:100vw;
+  position:absolute;
+  text-align:center;
+  padding-top:15px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index:100;
+}
+
+.nav-buttom{
+  font-family: Microsoft PhagsPa;
+  color:rgba(255, 255, 255, 0.816);
+  display:inline;
+  margin-left:10px;
+  margin-right:5px;
+  padding:7px;
+  transition:0.1s;
+  font-size:14px;
+}
+
+.nav-buttom:hover{
+  background-color:rgba(53, 56, 82, 0.576);
+  border-radius:5px;
+  color:rgba(255, 255, 255, 0.739);
+  cursor:pointer;
+}
+
+app-sobre-mi{
+  margin:0;
+}
+
+app-presentacion{
+  margin:0;
+}
+
+#log-in{
+  background-color: rgba(0, 0, 0, 0.147);
+  opacity: 75%;
+  position:absolute;
+  width: 30px;
+  right:30px;
+  top:15px;
+  z-index:100;
+}
+
+#log-in:hover{
+  opacity: 95%;
+  cursor:pointer;
+}
