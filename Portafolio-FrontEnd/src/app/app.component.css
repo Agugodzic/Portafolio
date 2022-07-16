@@ -2,9 +2,15 @@
   margin:0;
   z-index:0;
 }
+
 .marcador{
   font-size: 30px;
 }
+
+a{
+  text-decoration: none;
+}
+
 #nav{
   width:100vw;
   position:absolute;
@@ -13,6 +19,7 @@
   background-color: rgba(0, 0, 0, 0);
   z-index:100;
 }
+
 .nav-buttom{
   font-family: Microsoft PhagsPa;
   color:rgba(255, 255, 255, 0.816);
@@ -28,5 +35,28 @@
   background-color:rgba(255, 238, 0, 0.639);
   border-radius:5px;
   color:rgba(34, 34, 34, 0.898);
+  cursor:pointer;
+}
+
+app-sobre-mi{
+  margin:0;
+}
+
+app-presentacion{
+  margin:0;
+}
+
+#log-in{
+  background-color: rgba(0, 0, 0, 0.147);
+  opacity: 75%;
+  position:absolute;
+  width: 30px;
+  right:30px;
+  top:15px;
+  z-index:100;
+}
+
+#log-in:hover{
+  opacity: 95%;
   cursor:pointer;
 }

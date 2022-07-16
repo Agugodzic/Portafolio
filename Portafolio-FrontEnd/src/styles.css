@@ -18,13 +18,14 @@ body::-webkit-scrollbar-track{
   background-color: rgb(12, 12, 12);
   position:absolute;
 }
+
 body::-webkit-scrollbar-thumb{
-  background-color: #943838d1;
+  background-color: #ffffff4d;
   border-radius: 8px;
   position:absolute;
 
 }
 body::-webkit-scrollbar-thumb:hover{
-  background-color: #943838;
+  background-color: #ffffff7a;
 }
 
