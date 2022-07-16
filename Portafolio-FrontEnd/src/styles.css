@@ -1,9 +1,12 @@
 body{
+  background-color: rgba(0, 0, 0, 0.895);
   padding: 10px 30px 10px 30px;
   margin:0px;
   padding:0px;
   font-family: 'Red Hat Display', sans-serif;
   color:#000000ef;
+  font-family: Microsoft PhagsPa ;
+
 }
 
 body::-webkit-scrollbar{
@@ -12,7 +15,7 @@ body::-webkit-scrollbar{
   position:absolute;
 }
 body::-webkit-scrollbar-track{
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(12, 12, 12);
   position:absolute;
 }
 body::-webkit-scrollbar-thumb{

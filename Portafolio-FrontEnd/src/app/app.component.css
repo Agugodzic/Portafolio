@@ -1,5 +1,6 @@
 .section{
-  padding: 10px 30px 10px 30px;
+  margin:0;
+  z-index:0;
 }
 .marcador{
   font-size: 30px;
@@ -10,20 +11,22 @@
   text-align:center;
   padding-top:15px;
   background-color: rgba(0, 0, 0, 0);
+  z-index:100;
 }
 .nav-buttom{
+  font-family: Microsoft PhagsPa;
   color:rgba(255, 255, 255, 0.816);
   display:inline;
   margin-left:10px;
   margin-right:5px;
-  padding:10px;
+  padding:7px;
   transition:0.1s;
   font-size:15px;
 }
 
 .nav-buttom:hover{
-  background-color:rgba(241, 241, 241, 0.68);
+  background-color:rgba(255, 238, 0, 0.746);
   border-radius:5px;
-  color:rgba(41, 40, 40, 0.854);
+  color:rgba(34, 34, 34, 0.898);
   cursor:pointer;
 }
