@@ -18,17 +18,31 @@ a{
   padding-top:15px;
   background-color: rgba(0, 0, 0, 0);
   z-index:100;
+  animation-name:NavAnimation;
+  animation-duration:2s;
+}
+
+@keyframes NavAnimation{
+  from{
+    opacity:0;
+    transform: translateY(-12px)
+  }
+  to{
+    opacity:100%;
+    transform: translateY(0)
+  }
 }
 
 .nav-buttom{
   font-family: Microsoft PhagsPa;
-  color:rgba(255, 255, 255, 0.816);
+  color:rgba(255, 255, 255, 0.741);
   display:inline;
   margin-left:10px;
   margin-right:5px;
   padding:7px;
   transition:0.1s;
   font-size:14px;
+  position:sticky;
 }
 
 .nav-buttom:hover{
@@ -54,6 +68,17 @@ app-presentacion{
   right:30px;
   top:15px;
   z-index:100;
+  animation:LogIn 3s;
+}
+@keyframes LogIn{
+  from{
+    opacity:0;
+    transform:translateX(15px)
+  }
+  to{
+  opacity:75%;
+  transform:translateX(0px)
+}
 }
 
 #log-in:hover{
