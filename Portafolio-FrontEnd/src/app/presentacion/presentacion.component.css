@@ -55,6 +55,7 @@
   animation-name:flotante;
   animation-duration:2.5s;
   animation-iteration-count: infinite;
+  text-decoration: 0px;
 }
 
 @keyframes SobreMi{
@@ -66,10 +67,6 @@
     transform: translateY(0);
     opacity: 100%;
   }
-}
-
-#sobre-mi-1{
-  text-decoration: 0px;
 }
 
 #sobre-mi-1:hover{
