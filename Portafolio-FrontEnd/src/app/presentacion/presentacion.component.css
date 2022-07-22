@@ -10,6 +10,7 @@
   height: 100vh;
   text-align: center;
   position:absolute;
+
 }
 
 #contenedor-nombre{
@@ -65,6 +66,10 @@
     transform: translateY(0);
     opacity: 100%;
   }
+}
+
+#sobre-mi-1{
+  text-decoration: 0px;
 }
 
 #sobre-mi-1:hover{
