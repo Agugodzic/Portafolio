@@ -24,6 +24,7 @@
   width:40vw;
   justify-content: Left;
   align-items: center;
+  margin-top: 20px;
 }
 
 
@@ -41,9 +42,20 @@
 }
 
 #foto{
-  border-radius: 100px;
-  height: 180px;
-  width: 180px;
+  display:block;
+  height: 210px;
+  width: 210px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#desarrollador{
+  font-size: 22px;
+  color:rgba(146, 155, 177, 0.6);
 }
 
 #info{
